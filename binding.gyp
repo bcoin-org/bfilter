@@ -1,7 +1,7 @@
 {
   "variables": {
     "bfilter_byteorder%":
-      "<!(python -c 'from __future__ import print_function; import sys; print(sys.byteorder)')",
+      "<!(/usr/bin/env python2 -c 'from __future__ import print_function; import sys; print(sys.byteorder)')",
   },
   "targets": [{
     "target_name": "bfilter",
