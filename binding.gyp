@@ -1,7 +1,9 @@
 {
   "variables": {
+    "python":
+      "<!(command -v python python2 | tail -1)",
     "bfilter_byteorder%":
-      "<!(/usr/bin/env python2 -c 'from __future__ import print_function; import sys; print(sys.byteorder)')",
+      "<!(<(python) -c 'import sys; print(sys.byteorder)')",
   },
   "targets": [{
     "target_name": "bfilter",
