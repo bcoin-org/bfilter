@@ -1,5 +1,5 @@
 all:
-	@node-gyp rebuild
+	@npm run browserify
 
 browserify:
 	@npm run browserify
