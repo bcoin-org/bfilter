@@ -16,7 +16,6 @@
   "author": "Christopher Jeffrey <chjjeffrey@gmail.com>",
   "main": "./lib/bfilter.js",
   "scripts": {
-    "install": "node-gyp rebuild || echo 'Build failed.'",
     "browserify": "browserify -s bfilter lib/bfilter.js | uglifyjs -c > bfilter.js",
     "clean": "rm -f bfilter.js",
     "lint": "eslint lib/ test/ || exit 0",
