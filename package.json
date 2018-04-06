@@ -23,7 +23,7 @@
     "webpack": "webpack --config webpack.config.js"
   },
   "dependencies": {
-    "bufio": "~0.0.3",
+    "bufio": "~0.1.0",
     "mrmr": "~0.0.1"
   },
   "devDependencies": {
