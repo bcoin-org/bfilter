@@ -20,12 +20,11 @@
     "test": "mocha --reporter spec test/*-test.js"
   },
   "dependencies": {
-    "bsert": "~0.0.3",
-    "bufio": "~1.0.1",
-    "mrmr": "~0.1.1"
+    "bsert": "~0.0.4",
+    "bufio": "~1.0.2",
+    "mrmr": "~0.1.2"
   },
   "devDependencies": {
-    "eslint": "^5.1.0",
     "mocha": "^5.2.0"
   },
   "engines": {
