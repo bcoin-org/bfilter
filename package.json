@@ -1,6 +1,6 @@
 {
   "name": "bfilter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Bloom filters for javascript",
   "keywords": [
     "bloom",
@@ -22,7 +22,7 @@
   "dependencies": {
     "bsert": "~0.0.4",
     "bufio": "~1.0.2",
-    "mrmr": "~0.1.2"
+    "mrmr": "~0.1.3"
   },
   "devDependencies": {
     "mocha": "^5.2.0"
