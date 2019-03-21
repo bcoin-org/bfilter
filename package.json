@@ -20,12 +20,12 @@
     "test": "bmocha --reporter spec test/*-test.js"
   },
   "dependencies": {
-    "bsert": "~0.0.8",
-    "bufio": "~1.0.4",
+    "bsert": "~0.0.9",
+    "bufio": "~1.0.5",
     "mrmr": "~0.1.5"
   },
   "devDependencies": {
-    "bmocha": "^1.0.0"
+    "bmocha": "^2.1.0"
   },
   "engines": {
     "node": ">=8.0.0"
