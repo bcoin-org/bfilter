@@ -22,7 +22,7 @@
   "dependencies": {
     "bsert": "~0.0.10",
     "bufio": "~1.0.6",
-    "mrmr": "~0.1.6"
+    "bcrypto": "~4.0.1"
   },
   "devDependencies": {
     "bmocha": "^2.1.0"
